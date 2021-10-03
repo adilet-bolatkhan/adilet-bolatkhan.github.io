@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_page">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects_page">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts_page">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="home_page">
+        <div class="container row pt-5">
+            <div class="col-md-9 col-xs-9">
+                <h1 class="heading">Hi, I'm Adilet</h1>
+                <p class="parag">I'm a second-year student of AITU, junior web-developer. See more aboout me in this portfolio.</p>
+            </div>
+            <div class="home_pic col-md-3 col-xs-3">
+                <img class="my_photo" src="img/portfolio.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="about_page" >
+        <div class="container row py-5">
+            <div class="about_info col-md-9 col-xs-12">
+                <h1 class="heading ">About me</h1>
+                <p class="parag">I was born in Pavlodar, Kazakhstan. Currently studiyng in the AITU, majoring Telecommunication Systems. Some of my hobbies are listening to music, sports, watching sports. I like to spend time outside, or watching YouTube.</p>
+            </div>
+            <div class="about_pic col-md-3 col-xs-12">
+                <img src="img/about.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+    <div id="projects_page">
+        <h1 class="projects_heading pt-5 px-3">My Projects</h1>
+        <div class="container pt-3 pb-5">
+            <div class="project_cards row">
+                <div class="mx-5 bg-dark bg-opacity-50 text-white" style="width: 20rem;">
+                    <img src="https://i.pinimg.com/originals/6e/6a/7e/6e6a7e771ea5691fdd52c2258a8a7254.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card_heading">Water level controler</h3>
+                        <p class="card-text">Simple device that indicates level of water in the tank</p>
+                    </div>
+                </div>
+                <div class="mx-5 bg-dark bg-opacity-50 text-white" style="width: 20rem;">
+                    <img src="img/tribute.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card_heading">Tribute Page</h3>
+                        <p class="card-text">Tribute page for Steve Jobs, containig his Biography</p>
+                    </div>
+                </div>
+                <div class="mx-5 bg-dark bg-opacity-50 text-white" style="width: 20rem;">
+                    <img src="https://assets.awwwards.com/awards/submissions/2015/01/54ad38bb25561.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card_heading">Portfolio webpage</h3>
+                        <p class="card-text">My portfolio for people that may be interested</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contacts_page">
+        <div class="ps-3 pt-5">
+            <h1 class="heading">Contacts</h1>
+            <p class="parag">You can reach me by this contacts</p>
+        </div>
+        <div class="container py-3">
+            <div class="contacts_list row">
+                <div class="col-md-6 col-xs-6">
+                    <ul class="links_list">
+                        <li class="list_item">+12345678900</li>
+                        <li class="list_item">example@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <ul class="links_list">
+                        <li class="list_item">
+                            <a href="">Github</a>
+                        </li>
+                        <li class="list_item">
+                            <a href="">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
